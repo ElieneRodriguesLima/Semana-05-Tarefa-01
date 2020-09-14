@@ -1,0 +1,11 @@
+from random import randint
+par = impar = soma = 0
+numero = int(input('Digite um número entre: '))
+for n in range (1, 101):
+    numero = randint(1, 100)
+    print(numero)
+    if numero % 2 == 0:
+        par +=1
+else:
+    impar += 1
+    print(f'O número que você digitou tem um conjunto de 100 números, no qual n\{par} par e n\é {impar} é impar.')
