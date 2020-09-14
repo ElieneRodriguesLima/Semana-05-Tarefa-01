@@ -1,0 +1,8 @@
+from random import randint
+numero = int(input('Digite um número: '))
+soma = 0
+for m in range(1, 101):
+    numero = randint(numero, 1000)
+    soma += numero
+    media = round(soma / m, 2)
+    print(f'Você digitou um número que forma um conjunto de 100, que a {media} n\média é.')
