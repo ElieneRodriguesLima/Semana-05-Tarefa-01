@@ -1,0 +1,10 @@
+from random impor
+    print(f' Você digitou um número que formou um conjunto de {cont}números, no qual o mair deles é {maior}.')
+        
+        def main():
+            numero = int(input('Digite um número:'))
+
+            resultado = maior(numero)
+
+            if_name_=='_main_':
+                main()
